@@ -1,0 +1,40 @@
+{
+    "wall-refs": [
+        "border",
+        "center-diamond",
+        "cut-corners"
+    ],
+    "space": {
+        "gravity": [0, -300]
+    },
+    "goals": [
+        [ [[250, 100], [0, 0], [100, 0]], {"color":"blue"} ]
+    ],
+    "blobs": [
+        [ [], {"max_data": 10, "color": "orange", "elasticity":1.0} ],
+        [ [], {"max_data": 10, "color": "green", "elasticity":1.0, "fade":true} ],
+        [ [], {"max_data": 10, "color": "blue", "elasticity":1.0, "dynamic":true, "fade":true} ]
+    ],
+    "balls": [
+        [ [[100, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[100, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[100, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[100, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[500, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[100, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[100, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[100, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[500, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[500, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[500, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[500, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[500, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[500, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[500, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ],
+        [ [[500, 400]], {"max_data":15, "radius":10, "color":"aquamarine"} ]
+    ],
+    "zzzs": [
+        [ [[75, 75]], {} ],
+        [ [[75, 575]], {} ]
+    ]
+}

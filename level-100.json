@@ -1,0 +1,20 @@
+{
+    "wall-refs": [
+        "border",
+        "center-diamond"
+    ],
+    "space": {
+        "gravity": [0, -300]
+    },
+    "goals": [
+        [ [[250, 100], [0, 0], [100, 0]], {"color":"blue"} ]
+    ],
+    "blobs": [
+        [ [], {"max_data": 15, "color": "orange"} ],
+        [ [], {"max_data": 15, "color": "orange"} ]
+    ],
+    "balls": [
+        [ [[100, 400]], {"max_data":15, "radius":20, "color":"aquamarine"} ],
+        [ [[500, 400]], {"max_data":15, "radius":20, "color":"aquamarine"} ]
+    ]
+}

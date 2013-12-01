@@ -1,0 +1,17 @@
+{
+    "wall-refs": [
+        "top-half-vertical-center"
+    ],
+    "space": {
+        "gravity": [0, -300]
+    },
+    "goals": [
+        [ [[400, 500], [0, 0], [100, 0]], {"color":"blue"} ]
+    ],
+    "blobs": [
+        [ [], {"max_data": 40, "color": "orange", "elasticity": 1.1} ]
+    ],
+    "balls": [
+        [ [[150, 500]], {"max_data":15, "radius":20, "color":"aquamarine"} ]
+    ]
+}

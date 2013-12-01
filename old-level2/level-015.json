@@ -1,0 +1,22 @@
+{
+    "wall-refs": [
+        "border",
+        "center-diamond"
+    ],
+    "space": {
+        "gravity": [0, -300]
+    },
+    "goals": [
+        [ [[250, 100], [0, 0], [100, 0]], {"color":"blue"} ]
+    ],
+    "blobs": [
+        [ [], {"max_data": 25, "color": "orange"} ],
+        [ [], {"max_data": 5, "color": "white"} ]
+    ],
+    "balls": [
+        [ [[100, 400]], {"max_data":15, "radius":20, "color":"aquamarine"} ],
+        [ [[100, 400]], {"max_data":15, "radius":30, "color":"red"} ],
+        [ [[100, 400]], {"max_data":15, "radius":10, "color":"green"} ],
+        [ [[100, 400]], {"max_data":15, "radius":40, "color":"white"} ]
+    ]
+}
